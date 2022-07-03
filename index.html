@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        background-color: rgb(119, 119, 148);
+       }
+        
+        .container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    box-shadow:0 1px 4px rgba(146,161,176,.15);
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+   
+}
+.brand-name{
+    float: left;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 999;
+    height: 70px;
+    color: #0E2431;
+    line-height:70px;
+}
+.nav{
+    float: right;
+    display: block;
+    
+}
+.header ul{
+    list-style: none;
+    margin: 0px;
+}
+.header ul li{
+    display: inline;
+    height: 70px;
+    line-height: 70px;
+    margin: 10px 20px;
+}
+.header ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive;
+    padding: 10px 0ex;
+    color: #0E2431;
+    border-bottom: 2px solid transparent;
+}
+.header ul li a:hover{
+    border-bottom: 2px solid #4070F4;
+    transition: .2s ease-in;
+}
+
+.main-about{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    padding:5px;
+    float: middle;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    word-spacing: 12px;
+    color:#4070F4;
+    border-bottom: 2px solid #4070F4;    
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+
+.about,.skill,.work{
+    margin: 50px 0;   
+}
+.col-left{
+    width: 30%;
+    float: left;
+    
+}
+.col-right{
+    width:50%;
+    float: right;
+    border-radius:15px;
+    text-align: left;
+    background-color:aliceblue;
+    padding:5px;
+    margin-left: 10px;
+    margin-top: 150px;
+    box-shadow:
+                0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+                0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+                0 12.5px 10px rgba(0, 0, 0, 0.06),
+                0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+                0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+                0 100px 80px rgba(0, 0, 0, 0.12);
+    
+}
+.about img{
+    width: 300px;
+    height:400px;
+    border-radius: 15px;
+}
+.about p,.skill p,.headline{
+    text-align: left;
+    float: left;
+    opacity: 0.7;
+    visibility: visible;
+    width: auto;
+    font-size: 15px;
+}
+.intro-name{
+    float: top;
+    font-size: 30px;
+    margin-top: 15px;
+    padding:5px;
+    
+}
+
+/* .skill-section */
+ .skill-section{
+    width: 100%;    
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+    background-color:#fff;
+} 
+/* footer */
+.footer{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #0E2431;
+    height:150px;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+.para{    
+    padding: 5px;
+    margin: 20px;
+}
+
+    </style>
+ 
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <a href=""><span class="brand-name">Rohan Sitoni</span></a> 
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">about</a></li>
+                    <li><a href="index.html">skill</a></li>
+                    <li><a href="index.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+
+    <div class="main-about" id="about">
+        <span class="section-title">about</span><br>
+        <div class="container">
+            <div class="about">
+                <div class="col-left">
+                    <img src="upload.jpg" alt="">
+                </div>
+                <div class="col-right">
+                    <div class="intro-name">Rohan Sitoni</div>                    
+                    <p  class="para">
+                        <b>Chandigarh University</b>
+                        <br>NH-95, Ludhiana - Chandigarh State Hwy, Punjab 140413
+                        <br>COMPUTER SCIENCE & TECHNOLOGY
+                          
+                    </p>                   
+                    
+                </div>
+            </div>
+        </div>
+    </div>    
+ <div style="background-color:white;">
+    <span class="section-title">Skills</span><br> 
+</div> 
+   
+
+    <div>
+
+        <h3><u><i>Career Objective:</i></u></h3>
+        
+        <p>I intend to be a part of an organization where I can constantly learn and develop my technical and 
+            management skills and make best use of it for the growth of the organization. I look forward to 
+            establishing myself by adapting new technologies as well.</p>
+    </div> 
+    <div>   
+            <h3><i><u>Summary of Skills:</u></i></h3>
+            <ul>
+                <li> Comprehensive knowledge of Web development and testing techniques and methodologies</li>
+                <li> Strong passion for coding and developing websites and achieving a new set of skills and 
+                    methods</li>
+                <li>Familiarity with software types and operating platforms</li>
+                <li>Knowledge of basic computer languages, and computer hardware and software</li>
+                
+                </ul>
+        
+                <h3><i><u>LANGUAGE KNOWN</u></i></h3>
+                <ul >
+                    <li>HTML:5</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li> Java</li>
+                </ul>
+     </div>  
+    
+    <div style="background-color:white;">
+        <span class="section-title">Contact</span><br>
+    </div>
+        <div>
+         
+         
+                <h2><u>Rohan Sitoni</u></h2>
+            
+                <h3>: Shewla Khurd Near Raj Rani
+                    Wedding Point,Turner Road, Dehradun </h3> 
+                
+                <h3>+91- 7895631073
+                </h3>
+                <h3>E-mail:cu.17bcs3010@gmail.com</h3>
+        </div>
+        
+        
+        <div class="footer">
+            <div class="container">
+                <h3>Rohan Sitoni</h3>
+                <p>E-mail:cu.17bcs3010@gmail.com</p>  
+                <p>Thank You For Visiting Us!! 
+                </p>
+              
+    
+            </div>
+        </div>
+
+</body>
+
+</html>
